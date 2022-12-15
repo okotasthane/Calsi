@@ -4,4 +4,9 @@ public class Test {
         System.out.println("second sysout");
         System.out.println("manual sysout");
     }
+
+    private boolean isWorking() {
+       return true; // default
+    }
 }
+
