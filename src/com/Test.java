@@ -2,7 +2,7 @@ package src.com;
 
 public class Test {
 
-    Test_Second test_second = new Test_Second();
+    TestSecond testSecond = new TestSecond();
 
     public static void main(String[] args) {
         System.out.println("hello!");
@@ -16,7 +16,7 @@ public class Test {
         } else {
             System.out.println("Service status is off");
         }
-        test.test_second.multiple2(10,3);
+        test.testSecond.multiple2(10,3);
     }
 
     private boolean isWorking() {
