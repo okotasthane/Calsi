@@ -14,5 +14,9 @@ public class Test {
     private int calculate(int num1, int num2) {
        return (num1 != null && num2 != null) ? num1 + num2 : 0; // 0  as default
     }
+    
+    public boolean isTestClass() {
+        return true;
+    }
 }
 
