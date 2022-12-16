@@ -1,4 +1,7 @@
 public class Test {
+
+    Test_Second test_second = new Test_Second();
+
     public static void main(String[] args) {
         System.out.println("hello!");
         System.out.println("second sysout");
@@ -11,6 +14,7 @@ public class Test {
         } else {
             System.out.println("Service status is off");
         }
+        test.test_second.multiple2(10,3);
     }
 
     private boolean isWorking() {
