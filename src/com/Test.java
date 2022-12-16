@@ -1,7 +1,6 @@
+package src.com;
+
 public class Test {
-    
-    int test_variable = 10;
-    
     public static void main(String[] args) {
         System.out.println("hello!");
         System.out.println("second sysout");
@@ -14,6 +13,7 @@ public class Test {
         } else {
             System.out.println("Service status is off");
         }
+        test.testSecond.multiple2(10,3);
     }
 
     private boolean isWorking() {
