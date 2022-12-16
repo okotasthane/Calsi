@@ -1,3 +1,5 @@
+package src.com;
+
 public class Test {
 
     Test_Second test_second = new Test_Second();
