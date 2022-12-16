@@ -1,6 +1,8 @@
 package src.com;
 
 public class Test {
+
+    private TestSecond testSecond = new TestSecond();
     public static void main(String[] args) {
         System.out.println("hello!");
         System.out.println("second sysout");
