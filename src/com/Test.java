@@ -6,7 +6,7 @@ public class Test {
     public static void main(String[] args) {
         System.out.println("hello!");
         System.out.println("second sysout");
-        System.out.println("manual sysout");
+        System.out.println("manual sysout..");
         Test test = new Test();
         int sum = test.calculate(10,20);
         System.out.println("calculate " + sum);
