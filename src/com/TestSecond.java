@@ -7,8 +7,9 @@ public class TestSecond {
         return num1 * num2;
     }
 
-    private void showMsg(String msg) {
+    private int showMsg(String msg) {
         System.out.println(msg);
+        return -1;
     }
 
     TestSecond() {}
