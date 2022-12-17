@@ -10,4 +10,6 @@ public class TestSecond {
     private void showMsg(String msg) {
         System.out.println(msg);
     }
+
+    TestSecond() {}
 }
