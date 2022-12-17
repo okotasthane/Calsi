@@ -5,4 +5,6 @@ public class TestSecond {
         System.out.println("yes");
         return num1 * num2;
     }
+    
+    TestSecond() {}
 }
